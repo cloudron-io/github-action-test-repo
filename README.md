@@ -1,9 +1,9 @@
 # Testing the Cloudron GithHub Action for Pushing to Cloudron Apps
 
-## Lorem Ipsum
+## Reference the Forum Topic
 
-> dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+This is a demo for [Connecting the LAMP app with Git](https://forum.cloudron.io/topic/14622/connecting-the-lamp-app-with-git)
 
-## Foo Bar
+You should be able to download the resulting `README.md` file from the LAMP app after pushing this repo to your Cloudron LAMP app using the Cloudron GitHub Action.
 
-Hello World!
+Check it [default-lamp.cloudron.dev/README.md](https://default-lamp.cloudron.dev/README.md)
