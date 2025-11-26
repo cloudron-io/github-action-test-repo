@@ -1,5 +1,9 @@
 jobs:
   deploy:
+    on:
+      push:
+        branches:
+          - main
     runs-on: ubuntu-latest
     steps:
       - name: Cloudron Push to App
