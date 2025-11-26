@@ -1,6 +1,3 @@
 - name: Cloudron Push to App
   uses: cloudron-io/cloudron-push-to-app@dev
-  with:
-    cloudron-url: ${{ secrets.CLOUDRON_URL }}
-    cloudron-token: ${{ secrets.CLOUDRON_TOKEN }}
-    app-id: ${{ secrets.CLOUDRON_APP_ID }}
+
