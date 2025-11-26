@@ -1,3 +1,6 @@
-- name: Cloudron Push to App
-  uses: cloudron-io/cloudron-push-to-app@dev
-
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Cloudron Push to App
+        uses: cloudron-io/cloudron-push-to-app@dev
