@@ -7,6 +7,8 @@ jobs:
     runs-on: ubuntu-latest
     environment: my.cloudron.dev
     steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v6
       - name: Cloudron Push to App
         uses: cloudron-io/cloudron-push-to-app@latest
         with:
