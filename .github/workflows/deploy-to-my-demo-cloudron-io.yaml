@@ -20,4 +20,4 @@ jobs:
           CLOUDRON_TOKEN: "my.demo.cloudron.io"
           CLOUDRON_APP_ID: "a5eeeaf8-e754-41d8-8d91-d99272e4afa9"
           CLOUDRON_PUSH_DESTINATION: "/app/data/public"
-          CLOUDRON_CREATE_APP_BACKUP: "true"
+          CLOUDRON_CREATE_APP_BACKUP: "false"
