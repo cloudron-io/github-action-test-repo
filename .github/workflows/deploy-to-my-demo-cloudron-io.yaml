@@ -18,6 +18,6 @@ jobs:
           # INFO: This TOKEN is only valid until the my.demo.cloudron.io instance is reset.
           CLOUDRON_FQDN: "my.demo.cloudron.io"
           CLOUDRON_TOKEN: "0d8117263fbd8a91db1069440f0b06921950e0a7df29c107727391aff921db45"
-          CLOUDRON_APP_ID: "a5eeeaf8-e754-41d8-8d91-d99272e4afa9"
+          CLOUDRON_APP_ID: "github"
           CLOUDRON_PUSH_DESTINATION: "/app/data/public"
           CLOUDRON_CREATE_APP_BACKUP: "true"
