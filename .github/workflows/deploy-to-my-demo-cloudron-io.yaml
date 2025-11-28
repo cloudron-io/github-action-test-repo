@@ -13,6 +13,8 @@ jobs:
       - name: Cloudron Push to App
         uses: cloudron-io/cloudron-push-to-app@latest
         with:
+          # DANGER: These values are cleartext for demo purposes only. NEVER do this in production! Use GitHub Secrets instead.
+          # DANGER: With this API token, anyone can fully control your Cloudron instance!
           CLOUDRON_URL: "0d8117263fbd8a91db1069440f0b06921950e0a7df29c107727391aff921db45"
           CLOUDRON_TOKEN: "my.demo.cloudron.io"
           CLOUDRON_APP_ID: "a5eeeaf8-e754-41d8-8d91-d99272e4afa9"
